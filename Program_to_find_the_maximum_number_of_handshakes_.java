@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class classname
+class king
 {
     public static void main(String args[])
     {
