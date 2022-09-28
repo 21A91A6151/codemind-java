@@ -10,7 +10,14 @@ class classname
         {
             for(j=1;j<=n;j++)
             {
-                System.out.print((char)(k+i)+" ");
+                if(i==j)
+                {
+                    System.out.print("0");
+                }
+                else
+                {
+                    System.out.print("x");
+                }
             }
             System.out.println();
         }
